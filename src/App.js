@@ -65,7 +65,16 @@ export default function App() {
 
   const introAlert = () => {
     alert(
-      `Welcome to my game!`
+      `
+      Welcome to my game!
+      The rules are simple:
+      When you click on a card it shows you the face and you can 
+      select another card.
+      If they match you got a pair if they don't they go face down 
+      again.
+      Your goal is to get all the pairs face up in the least amount of 
+      turns possible!
+      GLHF`
       )
   }
 
@@ -92,7 +101,7 @@ export default function App() {
       <p>Turns: {turns}</p>
       <div className='button-grid'>
       <button onClick={shuffleCards}>New Game</button>
-      <button>Help Me!</button>
+      <button onClick={introAlert}>Help Me!</button>
       </div>
       <div className='card-grid'>
         {cards.map(card => (
