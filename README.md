@@ -1,3 +1,15 @@
+# Rules:
+
+Welcome to my game!
+The rules are simple:
+When you click on a card it shows you the face and you can 
+select another card.
+If they match you got a pair if they don't they go face down 
+again.
+Your goal is to get all the pairs face up in the least amount of 
+turns possible!
+GLHF`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
